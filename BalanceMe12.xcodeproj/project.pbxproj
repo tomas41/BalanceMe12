@@ -13,6 +13,7 @@
 		C37428F5246995740011401A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37428F3246995740011401A /* Main.storyboard */; };
 		C37428F7246995750011401A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37428F6246995750011401A /* Assets.xcassets */; };
 		C37428FA246995750011401A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37428F8246995750011401A /* LaunchScreen.storyboard */; };
+		C374290224699D840011401A /* GyroService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C374290124699D840011401A /* GyroService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C37428F6246995750011401A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C37428F9246995750011401A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C37428FB246995750011401A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C374290124699D840011401A /* GyroService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				C37428F6246995750011401A /* Assets.xcassets */,
 				C37428F8246995750011401A /* LaunchScreen.storyboard */,
 				C37428FB246995750011401A /* Info.plist */,
+				C374290124699D840011401A /* GyroService.swift */,
 			);
 			path = BalanceMe12;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				C37428F2246995740011401A /* ViewController.swift in Sources */,
 				C37428EE246995740011401A /* AppDelegate.swift in Sources */,
+				C374290224699D840011401A /* GyroService.swift in Sources */,
 				C37428F0246995740011401A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,8 +289,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 44B4G37MW8;
+				DEVELOPMENT_TEAM = PYX9BW48JR;
 				INFOPLIST_FILE = BalanceMe12/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,8 +308,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 44B4G37MW8;
+				DEVELOPMENT_TEAM = PYX9BW48JR;
 				INFOPLIST_FILE = BalanceMe12/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
